@@ -30,3 +30,37 @@
 	margin-right: auto;
 	max-width: 980px;
 }
+
+.w3-row{
+	content:"";
+	display: table;
+	clear: both;
+	padding: 0 8px;
+}
+
+.w3-col{
+	float: left;
+	width: 100%;
+	padding: 0 8px;
+}
+
+.w3-col.s8{width: 66.66666%;}
+
+.w3-col.s12{width: 99.99999%;}
+
+.w3-card-4{
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 
+	rgba(0, 0, 0, 0.19);
+}
+
+.w3-margin{
+	margin: 16px !important;
+}
+
+.w3-white{
+	color: #000 !important;
+}
+
+.w3-opacity{
+	opacity: 0.60;
+}
